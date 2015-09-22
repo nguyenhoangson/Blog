@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5079b453-05bc-4a31-a719-36c7f794aa59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/batman.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/article_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/articles.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/articles_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/articles_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/controllers/home_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/home_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HoangSonBlog.iml" afterPath="$PROJECT_DIR$/.idea/HoangSonBlog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HoangSonBlog.iws" />
@@ -761,7 +743,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442944732235</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add images and">
+      <created>1442947308575</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1442947308575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -805,7 +793,8 @@
     <MESSAGE value="Add articles controller" />
     <MESSAGE value="Try codeship Continuous Integration" />
     <MESSAGE value="Set up rails application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up rails application" />
+    <MESSAGE value="Add images and" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add images and" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
