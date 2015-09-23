@@ -6,7 +6,7 @@ html{
 }
 
 
-#page-cover{
+#home-cover{
   display: table;
   width: 100%;
   min-height: 700px;
@@ -20,8 +20,15 @@ html{
   background-size: cover;
   -o-background-size: cover;
 }
+.aligncenter{
+  max-width: 180px;
+}
+#home-cover-body{
+  display: table-cell;
+  vertical-align: middle;
+}
 
-#page-navigation{
+#home-navigation{
   display: table;
   width: 100%;
   min-height: 700px;
@@ -44,6 +51,7 @@ html{
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+
 }
 
 .btn-default {
@@ -53,7 +61,7 @@ html{
 }
 
 @media(min-width:768px) {
-  #page-cover {
+  #home-cover {
     height: 100%;
     padding: 0;
   }
@@ -63,6 +71,7 @@ html{
   }
 
   .intro-text {
+    margin-bottom: 20px;
     font-size: 26px;
   }
 }
