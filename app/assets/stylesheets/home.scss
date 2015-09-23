@@ -5,17 +5,64 @@ html{
  height: 0px;
 }
 
-img.image-cover{
-  position: absolute;
-  max-width: 100%;
-  z-index: -1;
+
+#page-cover{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background: url(asset-path("image1.jpg")) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-#page-cover > h1{
-  height: 900px;
-  color: white;
+#page-navigation{
+  display: table;
+  width: 100%;
+  height: 700px;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background: url(asset-path("image2.jpg")) no-repeat bottom center scroll;
+  background-color: #000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
-#page-cover > p{
-  color: #F7F7F7;
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.btn-default {
+  border: 2px solid #f4d9ff;
+  color: #f4d9ff;
+  background-color: transparent;
+}
+
+@media(min-width:768px) {
+  #page-cover {
+    height: 100%;
+    padding: 0;
+  }
+
+  .brand-heading {
+    font-size: 70px;
+  }
+
+  .intro-text {
+    font-size: 26px;
+  }
 }
