@@ -9,40 +9,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= favicon_link_tag 'batman.ico' %>
 </head>
+
 <body>
 
-    <!--Header-->
-    <div id="page-header">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">About</a></li>
-        <li role="presentation"><a href="#">Articles</a></li>
-        <li role="presentation"><a href="#">Home</a></li>
-      </ul>
-    </div>
-    
+
 <%= yield %>
     
-    <!--Footer-->
-    <div id="page-footer" class="container-fluid">
-      <div class="row">
-        <div class="col-md-5"></div>
-        <div class="col-md-2"></div>
-        <div class="col-md-5">
-          <a href="https://www.facebook.com/Nicholas.Nguyen.128">
-            <%= image_tag("facebook.png", :alt => "rss feed") %>
-          </a>
-          <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button">
-            <%= image_tag("linkedin.png", :alt => "rss feed") %>
-          </a>
-          <a href="https://plus.google.com/u/1/">
-            <%= image_tag("googleplus.png", :alt => "rss feed") %>
-          </a>
-          <a href="https://twitter.com/?lang=en">
-            <%= image_tag("twitter.png", :alt => "rss feed") %>
-          </a>
-        </div>
-      </div>
-    </div>
 
 </body>
 </html>
