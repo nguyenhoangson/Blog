@@ -33,29 +33,16 @@ html{
 #home-navigation{
   display: table;
   width: 100%;
-  min-height: 600px;
+  min-height: 700px;
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(asset-path("cover1.jpg")) no-repeat bottom center scroll;
+  background: url(asset-path("image3.jpg")) no-repeat bottom center scroll;
   background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-
-#home-navigation-left{
-  display: table-cell;
-  height: 100%;
-  width: 40%;
-  float: left;
-}
-
-#home-navigation-right{
-  display: table-cell;
-  width: 60%;
-  height: 100%;
 }
 
 .btn {
