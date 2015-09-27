@@ -1,10 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-html{
- height: 0px;
+body{
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
+body, html{
+  height: 100%;
+}
 
 #home-cover{
   display: table;
@@ -24,11 +29,11 @@ html{
 #home-footer{
   display: table;
   width: 100%;
-  m-height: 400px;
+  max-height: 400px;
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(asset-path("image2.jpg")) no-repeat bottom center scroll;
+  background: url(asset-path("intro-bg.jpg")) no-repeat bottom center scroll;
   background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,7 +56,7 @@ html{
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: url(asset-path("image3.jpg")) no-repeat bottom center scroll;
+  background: url(asset-path("cover1.jpg")) no-repeat bottom center scroll;
   background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
