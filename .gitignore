@@ -15,3 +15,5 @@
 # Ignore .idea folder
 .idea
 
+# Ignore test_ruby_syntax file
+test_ruby_syntax.rb
