@@ -11,21 +11,6 @@ body, html{
   height: 100%;
 }
 
-#home-cover{
-  display: table;
-  width: 100%;
-  min-height: 800px;
-  padding: 100px 0;
-  text-align: center;
-  color: #fff;
-  background: url(asset-path("image1.jpg")) no-repeat bottom center scroll;
-  background-color: #000;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 #home-footer{
   display: table;
   width: 100%;
@@ -64,6 +49,9 @@ body, html{
   -o-background-size: cover;
 }
 
+#home-navigation.row{
+  height: 100%;
+}
 .btn {
   border-radius: 0;
   text-transform: uppercase;
