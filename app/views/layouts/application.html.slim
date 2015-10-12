@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta content=("text/html; charset=UTF-8") http-equiv="Content-Type" /
+    title Hoang Son House
+    /! Bootstrap
+    link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" /
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"
+    = favicon_link_tag 'batman.ico'
+  body
+    = yield
