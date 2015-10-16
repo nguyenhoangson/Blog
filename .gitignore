@@ -17,3 +17,4 @@
 
 # Ignore test_ruby_syntax file
 test_ruby_syntax.rb
+hello.html.slim

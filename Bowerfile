@@ -1,0 +1,6 @@
+asset 'angular', '1.4.7'
+asset 'angular-route'
+asset 'angular-resource'
+asset 'angular-mocks'
+asset 'angular-ui-bootstrap-bower'
+asset 'textAngular'
