@@ -13,7 +13,7 @@
 /tmp
 
 # Ignore .idea folder
-.idea
+/.idea
 
 # Ignore test_ruby_syntax file
 test_ruby_syntax.rb

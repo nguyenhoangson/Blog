@@ -11,11 +11,13 @@
 // about supported directives.
 //
 
-//= require turbolinks
-//= require_tree .
 //= require angular/angular.min
+//= require rangy/rangy-core.min
+//= require rangy/rangy-selectionsaverestore.min
 //= require textAngular/dist/textAngular-rangy.min
 //= require textAngular/dist/textAngular-sanitize.min
 //= require textAngular/dist/textAngular.min
-//= require rangy/rangy-core.min
-//= require rangy/rangy-selectionsaverestore.min
+//= require turbolinks
+//= require articles
+//= require home
+
