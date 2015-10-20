@@ -1,4 +1,10 @@
 .container
   .row
     .col-centered
-      text-angular ng-model="htmlVariable"
+      text-angular ng-model="htmlContent"
+    .col-centered
+      .btn-group
+        button type="button" class="btn btn-default"
+          | Publish
+    .col-centered
+      pre ng-bind="htmlContent"

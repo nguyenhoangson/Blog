@@ -52,6 +52,7 @@ body, html{
 #home-navigation.row{
   height: 100%;
 }
+
 .btn {
   border-radius: 0;
   text-transform: uppercase;
@@ -63,11 +64,11 @@ body, html{
 
 }
 
-.btn-default {
-  border: 2px solid #f4d9ff;
-  color: #f4d9ff;
-  background-color: transparent;
-}
+//.btn-default {
+//  border: 2px solid #f4d9ff;
+//  color: #f4d9ff;
+//  background-color: transparent;
+//}
 
 @media(min-width:768px) {
   #home-cover {
